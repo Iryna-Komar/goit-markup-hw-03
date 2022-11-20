@@ -64,6 +64,12 @@ button {
   .container {
     width: 1200px;
     padding: 0px 15px;
+    margin: 0 auto;
+  }
+
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 
   .link {
@@ -75,7 +81,7 @@ button {
   }
 
   /* header */
-  header {
+  .header {
     border-bottom: 1px solid var(--bg-color-utility);
   }
   .header-logo {
@@ -130,7 +136,6 @@ button {
    
   .header-list {
     display: flex;
-    margin-right: 344px;
   }
 
   .header-list .item {
@@ -149,6 +154,7 @@ button {
 
   .header-list-contacts {
     display: flex;
+    margin-left:auto;
   }
 
   .header-list-contacts .item {
@@ -188,9 +194,8 @@ button {
 
   .hero {
     background-color: var(--main-color);
-    height: 600px;
     text-align: center;
-    padding-top: 200px;
+    padding: 200px 0px;
   }
 
   .hero-btn{
@@ -217,7 +222,7 @@ button {
 
   /* features */
 
-  .features .list {
+  .features-list {
     display: flex;
 
   } 
@@ -235,16 +240,13 @@ button {
 
   .features-list .item {
     margin-right: 30px;
+    width: 270px;
   }
 
   .features-list .item:last-child {
     margin-right: 0px;
   }
 
-  .features {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
   
   /* services */
 
@@ -259,7 +261,7 @@ button {
   }
 
   .services {
-    padding-bottom: 94px;
+    padding-top: 0px;
   }
 
   .list-services {
@@ -312,6 +314,7 @@ button {
   }
 
   .card {
+    background-color: var(--bg-color);
     box-shadow: var(--card-shadow);
     border-radius: 4px;
     overflow: hidden;
@@ -322,7 +325,7 @@ button {
   }
 
   .staff-name {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   /* footer */
@@ -374,11 +377,6 @@ button {
 
   /* Portfoio */
   
-  .portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
-  }
 
   .filter-list .item {
     margin-right: 8px;
@@ -420,10 +418,14 @@ button {
 
 
   .portfolio-title {
+    
+    margin-bottom: 4px;
+
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
+   
   }
 
   .portfolio-unit {
